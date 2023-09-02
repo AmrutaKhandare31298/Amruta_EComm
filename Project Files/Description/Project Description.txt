@@ -1,0 +1,101 @@
+Project Description:
+Features:
+Basic E-commerce Features:
+Product Lists: Display a list of products with their details, including name, price, and image.
+
+Product Details: Show detailed information about a specific product, including descriptions and images.
+
+Cart: Allow users to add products to their shopping cart, view the cart, and update or remove items.
+
+Checkout: Provide a checkout process for users to finalize their orders and input shipping/payment information.
+
+Secure Payment Options:
+Secure Card Payments: Integrate Stripe to securely handle online credit/debit card payments during checkout.
+
+Cash Payments: Provide an option for users to choose cash-on-delivery as a payment method.
+
+Admin Panel:
+Add/Edit Orders: Enable administrators to manage and update orders, such as marking orders as shipped or completed.
+
+Add/Edit Products: Allow administrators to add new products or edit existing product details.
+
+Sorting, Filtering, and Pagination:
+Sorting: Implement sorting options to arrange product listings based on criteria like price or popularity.
+
+Filtering: Enable users to filter products by categories, brands, or other attributes.
+
+Pagination: Display a limited number of products per page and provide pagination controls for easy navigation.
+
+Authentication and User Profile:
+Authentication: Implement user authentication using Passport JS strategies, supporting login and registration.
+
+User Profile: Provide a user profile page where users can update their information and view their past orders.
+
+Email Notifications:
+Order Emails: Send confirmation emails to users upon successful order placement.
+
+Reset Password Emails: Implement a password reset mechanism and send reset instructions via email.
+
+Technical Details:
+Front-End:
+React 18 with Tailwind CSS: Build the user interface using the latest version of React and style it using Tailwind CSS for rapid and responsive UI development.
+
+Redux Toolkit with Async Thunk: Manage the application's state using Redux Toolkit, including asynchronous operations like fetching data from the server.
+
+React Router v6: Implement the routing system for different pages and components using React Router v6.
+
+JSON-server for Front-End Testing: Simulate a backend API during development using JSON-server for testing purposes.
+
+Back-End:
+MongoDB: Use MongoDB as the database to store products, users, and orders.
+
+Mongoose v7 as ODM: Interact with the MongoDB database using Mongoose as the Object-Data Mapping library.
+
+REST API using Express: Create a RESTful API using Express to handle requests and responses.
+
+Authentication using Passport JS: Implement user authentication and session management using Passport JS.
+
+API Authentication using Passport JWT: Secure the API endpoints with JWT (JSON Web Tokens) for authorized access.
+
+Server and Deployment:
+MongoDB Atlas Cloud Database: Host the MongoDB database on MongoDB Atlas cloud service for data storage and reliability.
+
+Vercel Server Deployment: Deploy the front-end React application using Vercel's hosting service.
+
+Email and Payments:
+Email using Nodemailer: Send order and password reset emails using Nodemailer library, integrated with Gmail's SMTP system.
+
+Payments using Stripe: Integrate Stripe's PaymentIntent API for handling secure and smooth online payments.
+
+Modules Breakdown:
+Authentication Module:
+
+User registration and login.
+User profile management.
+Password reset and email confirmation.
+Product Module:
+
+Displaying product lists and details.
+Sorting, filtering, and pagination.
+Adding/editing products in the admin panel.
+Cart and Checkout Module:
+
+Adding/removing products to/from the cart.
+Calculating cart totals.
+Processing the checkout process.
+Order Module:
+
+Handling user orders and order details.
+Sending order confirmation emails.
+Admin Panel Module:
+
+Managing orders and order status.
+Adding/editing products.
+Payment Module:
+
+Integrating Stripe for secure payments.
+Email Module:
+
+Sending order and reset password emails.
+Conclusion:
+This e-commerce project encompasses a wide range of features and technical components, providing users with a complete online shopping experience while ensuring the security of their data and payments. The utilization of modern technologies like React, Redux, MongoDB, and Stripe contributes to the creation of a robust and user-friendly platform.
